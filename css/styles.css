@@ -63,6 +63,7 @@ img{
 
 .link{
     text-decoration:none;
+    color: inherit;
 }
 
 .header-container{
@@ -141,28 +142,22 @@ img{
     margin-right: 50px;
 }
 
-.mailto-link,
-.tel-link{ 
+.mailto-tel-link{ 
+    fill: #757575;
     color: #757575;
 }
 
-.mailto-link:hover,
-.mailto-link:focus{
+.mailto-tel-link:hover,
+.mailto-tel-link:focus{
     color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-.tel-link:hover,
-.tel-link:focus{
-    color: var(--accent-color);
-    fill: var(--accent-color);
-}
-
-.communication-link-envelope,
-.communication-link-smartphone{
-    fill: #757575;
+.icon{
     margin-right: 10px;
+    color: currentColor;
 }
+
 
 /*-----------INDEX--------------*/
 
@@ -439,11 +434,12 @@ img{
 }
 
 .customers-list-link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 16px 32px;
 
     background: transparent;
     fill:#AFB1B8;
@@ -650,6 +646,7 @@ img{
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
+    text-decoration: none;
 }
 
 .portfolio-title{
