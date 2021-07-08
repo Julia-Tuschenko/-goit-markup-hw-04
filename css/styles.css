@@ -144,6 +144,11 @@ img{
     margin-right: 50px;
 }
 
+.mailto-tel-link{
+    display: flex;
+    align-items: center;
+}
+
 .mailto-tel-link:hover,
 .mailto-tel-link:focus{
     color: var(--accent-color);
@@ -622,6 +627,7 @@ img{
     margin-left: 30px;
     margin-top: 30px;
     width: 370px;
+    text-decoration: none;
 
     background-color: var(--primary-bg-color);
     box-sizing: border-box;
@@ -629,6 +635,7 @@ img{
 
 .portfolio-focus{
     display: block;
+    text-decoration: none;
 }
 
 .portfolio-focus:hover,
